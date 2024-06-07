@@ -66,4 +66,3 @@ function toggleView() {
 
 setInterval(updateHPBars, 1000);
 updateHPBars();
-
