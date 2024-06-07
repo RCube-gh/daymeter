@@ -1,0 +1,54 @@
+body{
+	background-color: #ffa;
+}
+h1{
+	text-align:center;
+	font-size:64px;
+	font-family: cursive;
+}
+.hp-container {
+	width: 80%;
+	background-color: #ccc;
+	border-radius: 25px;
+	overflow: hidden;
+	position: relative;
+	margin: 10% auto;
+	border: 4px solid black;
+}
+.hp-bar {
+	height: 80px;
+	background-color: green;
+	width: 0%;
+	text-align: center;
+	line-height: 80px;
+	color: white;
+	font-weight: bold;
+	transition: width 0.5s ease-in-out;
+}
+.hp-text {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 80px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: cursive;
+	color: black;
+}
+.button-container {
+	text-align: center;
+	margin: 20px 0;
+}
+.toggle-button {
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: cursive;
+	font-weight:bold;
+	cursor: pointer;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: #ffa;
+	color: black;
+}
